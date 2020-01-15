@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="..//css/bootstrap.min.css">
+    <link rel="stylesheet" href="..//css/style.css">
+    <title>git status</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div> <b>git status</b> - команда которая показывает есть ли файлы как <span class="red">untracked(неотслежеваемый файл)</span> и <span class="red">modifed(измененный файл)</span>. Если вы только добавили в инициализированную гитом папку новый файл , то этот файл будет как <span class="red">untracked</span> и будет выделен красным цветом. Для того что бы добавить его в статус отслежеваемого нужно выполнить команду <b>git add <span class="blue">название_файла</span></b>. После этого вызвав команду <b>git status</b> вы увидете что файл стал зеленым и готов для коммита.</div>
+                <div>Так же если вы сделаете изменения в файле при вызове команды <b>git status</b> он будет красным помечен как <span class="red">modified: назание файла</span>.Нужно так же вызвать команду <b>git add <span class="blue">название_файла</span></b> и вызвав команду <b>git status</b> вы снова увидите что надпись стала зеленая и файл готов для коммита.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
